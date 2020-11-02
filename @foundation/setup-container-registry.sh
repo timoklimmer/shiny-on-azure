@@ -34,3 +34,4 @@ az acr create \
 echo ""
 
 echo "Done."
+echo "Please note that it can take a few minutes until the registry is available for login."
