@@ -138,3 +138,9 @@ az acr webhook create `
     --registry $ACR_REGISTRY `
     --uri $CI_CD_URL `
     --actions push delete
+    
+# --- Done
+Write-Host "Done."
+Write-Host "Please note that it might take a while until the webapp has loaded new container versions."
+Write-Host "Previous versions will be kept until the new container load has been completed."
+Write-Host "Check the log stream of your App Service to see what is going on."
